@@ -8,6 +8,10 @@
     <style>
       body {
         background-color: antiquewhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
       }
     </style>
   </head>
@@ -40,7 +44,6 @@
         const boxHeight = 1;
         const boxDepth = 1;
         const geometry = new THREE.BoxGeometry(boxWidth, boxHeight, boxDepth);
-
 
         // RENDERER
         renderer.render(scene, camera);
